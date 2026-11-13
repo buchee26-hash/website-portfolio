@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Sylvia Chukwu</title>
+<meta name="description" content="Student portfolio and academic planner of Sylvia Chukwu, software engineering student at Miva Open University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="bar">
+<a class="logo" href="index.html">Sylvia Chukwu</a>
+<button id="menuBtn" aria-controls="nav" aria-expanded="false">Menu</button>
+<nav id="nav" aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Me</a></li><li><a href="projects.html">Projects</a></li><li><a href="planner.html">Academic Planner</a></li><li><a href="contacts.html" class="active" aria-current="page">Contact</a></li></ul></nav>
+</div></header>
+<main>
+<h1>Contact me</h1>
+<section class="stitch">
+<form id="contactForm" novalidate>
+<div><label for="name">Name</label><input type="text" id="name" autocomplete="name"><p class="err" id="nameErr"></p></div>
+<div><label for="email">Email address</label><input type="text" id="email" autocomplete="email"><p class="err" id="emailErr"></p></div>
+<div><label for="phone">Phone number</label><input type="text" id="phone" inputmode="numeric" autocomplete="tel"><p class="err" id="phoneErr"></p></div>
+<div><label for="message">Message</label><textarea id="message" rows="5"></textarea><p class="err" id="messageErr"></p></div>
+<button class="btn" type="submit">Send message</button>
+</form>
+<div id="formStatus" aria-live="polite"></div>
+</section>
+</main>
+<footer><p>&copy; 2026 Sylvia Chukwu | COS 106 Term Project, Miva Open University | <a href="https://github.com/buchee26-hash/COS-106-Portfolio">GitHub repository</a></p></footer>
+<script src="script.js"></script>
+</body>
+</html>

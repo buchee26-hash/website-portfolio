@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | Sylvia Chukwu</title>
+<meta name="description" content="Student portfolio and academic planner of Sylvia Chukwu, software engineering student at Miva Open University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="bar">
+<a class="logo" href="index.html">Sylvia Chukwu</a>
+<button id="menuBtn" aria-controls="nav" aria-expanded="false">Menu</button>
+<nav id="nav" aria-label="Main navigation"><ul><li><a href="index.html" class="active" aria-current="page">Home</a></li><li><a href="about.html">About Me</a></li><li><a href="projects.html">Projects</a></li><li><a href="planner.html">Academic Planner</a></li><li><a href="contacts.html">Contact</a></li></ul></nav>
+</div></header>
+<main>
+<section class="hero">
+<div>
+<h1>Hi, I'm Sylvia Chukwu. Welcome to my portfolio.</h1>
+<p>I'm a first-year Software Engineering student at Miva Open University. I moved over from Metallurgical and Materials Engineering, and I'm now learning to build things for the web with HTML, CSS and JavaScript.</p>
+<p>Take a look around, try the planner, and say hello on the contact page.</p>
+<a class="btn" href="projects.html">See my projects</a>
+</div>
+<img src="images/profile.jpeg" alt="Portrait of Sylvia Chukwu wearing a navy Miva Open University t-shirt">
+</section>
+<section class="stitch" id="intro">
+<h2>Hear it from me</h2>
+<p>A short audio introduction.</p>
+<audio controls preload="metadata"><source src="intro_audio.mp4" type="audio/mp4">Your browser does not support audio playback.</audio>
+</section>
+<section class="stitch">
+<h2>Brief biography</h2>
+<p>Before software, I studied materials engineering, so I like understanding how things are made and why they hold together. Outside class I sew, read and draft fashion patterns. This website is my first project written from source code.</p>
+</section>
+<section class="grid" aria-label="Quick links">
+<article class="stitch"><h3>About me</h3><p>My education, skills and interests.</p><a href="about.html">Read more</a></article>
+<article class="stitch"><h3>Academic planner</h3><p>Track tasks and deadlines.</p><a href="planner.html">Open planner</a></article>
+<article class="stitch"><h3>Contact</h3><p>Clients, collaborators and employers welcome.</p><a href="contacts.html">Get in touch</a></article>
+</section>
+</main>
+<footer><p>&copy; 2026 Sylvia Chukwu | COS 106 Term Project, Miva Open University | <a href="https://github.com/buchee26-hash/COS-106-Portfolio">GitHub repository</a></p></footer>
+<script src="script.js"></script>
+</body>
+</html>
